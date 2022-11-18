@@ -1,0 +1,25 @@
+.transaction_history {
+  text-align: center;
+  border: 1px solid rgb(218, 206, 206);
+  background-color: #fff;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+th {
+  padding: 10px;
+  width: 250px;
+  background-color: rgb(102, 121, 40);
+}
+
+.line {
+  background-color: blanchedalmond;
+}
+
+.line:nth-child(odd) {
+  background: #ececef;
+}
+
+.line:hover {
+  background-color: rgb(130, 184, 180);
+}
